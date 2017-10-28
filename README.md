@@ -10,9 +10,26 @@
 
 ffmpeg ( for 28.10.2017 version is ffmpeg version 3.3.4-1~16.04.york0 ) 
 
-nginx
+Installing Nginx and Nginx-RTMP
 
-screen
+Install the tools required to compile Nginx and Nginx-RTMP from source.
+
+sudo apt-get install build-essential libpcre3 libpcre3-dev libssl-dev
+
+Install nginx-extras
+
+sudo apt-get install nginx-extras
+
+Add in nginx.conf file
+
+ location / {
+            root   html;
+            index  index.html index.htm;
+            add_header Access-Control-Allow-Origin *;
+
+Install screen 
+
+sudo apt-get install screen
 
 #step by step
 
