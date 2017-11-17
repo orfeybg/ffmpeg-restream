@@ -2,7 +2,7 @@
 
 if pgrep -x "ffmpeg" > /dev/null
 then
-    echo "Some camera wordk. Chek who..."
+    echo "Some camera work. Chek who..."
 sleep 5
 /livestream/chekcameri.sh
 
