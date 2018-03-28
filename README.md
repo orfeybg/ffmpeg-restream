@@ -60,11 +60,18 @@ mkdir media
 
 
 #new info add 28.03.2018
+
 Add new file timedif.sh
+
+
 -remove chekcameri.sh
+
+
 -add crontab changes
 
 #*/5 * * * * /livestream/chekcameri.sh > /dev/null 2>&1
+
+
 */5 * * * * /livestream/timedif.sh > /dev/null 2>&1
 
 
