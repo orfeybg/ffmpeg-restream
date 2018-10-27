@@ -53,6 +53,7 @@ mkdir media
 
 
 #firt chek script camera1.sh is work normaly 
+
 #if all is ok you can start startscreen.sh
 
 #you can make crontab to check cameri every 5 min
