@@ -28,6 +28,6 @@ if (((newseconds - camer1) / 60)) ; then
     find /var/www/html/livecam/media/camera1/ -type f -exec rm {} \;
     echo "Start camera camera1"
     screen -Sdm camera1  /home/cameri/livecam/camera1.sh &
-    screen -list | grep camera1 | cut -f1 -d'.' | sed 's/\W//g'  >  /home/cameri/livecam/pids/camera1
+    screen -list | grep camera1 | cut -f1 -d'.' | head -n1 | sed 's/\W//g'  >  /home/cameri/livecam/pids/camera1
     echo "Camera camera1 e startirana"
 fi
