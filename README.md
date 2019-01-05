@@ -86,7 +86,7 @@ media and scripts
 
 
 make bash script with camera name
-camera1.sh
+camera1timelaps.sh
 
 create script for generate movie from images
 generate-movie.sh
