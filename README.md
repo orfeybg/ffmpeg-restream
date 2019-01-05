@@ -76,7 +76,7 @@ Add new file timedif.sh
 */5 * * * * /livestream/timedif.sh > /dev/null 2>&1
 
 
-#add timelapse scripts 2019
+#add timelapse scripts 2019 / i get help from script for this man https://superuser.com/users/466879/rus-ti
 
 create new directory
 timelapse
