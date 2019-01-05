@@ -76,4 +76,17 @@ Add new file timedif.sh
 */5 * * * * /livestream/timedif.sh > /dev/null 2>&1
 
 
+#add timelapse scripts 2019
 
+create new directory
+timelapse
+
+create subdirectory
+media and scripts
+
+
+make bash script with camera name
+camera1.sh
+
+create script for generate movie from images
+generate-movie.sh
